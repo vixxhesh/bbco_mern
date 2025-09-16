@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
-import Bg from "../../images/hero/business_consulting_hero_section_bg.jpg";
+import Bg from "../../images/hero/bgImage.jpg";
 import shape1 from "../../images/hero/logo_google.svg";
 import shape2 from "../../images/hero/business_consulting_hero_section_bg.jpg";
 import shape3 from "../../images/hero/business_consulting_hero_image_2.webp";
@@ -80,7 +80,7 @@ const Hero3 = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 mt-n3">
             <div className="business_consulting_hero_image">
               <img className="hero_image" src={shape2} alt="CA Binod Verma" />
               <div

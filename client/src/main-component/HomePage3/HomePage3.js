@@ -16,7 +16,9 @@ const HomePage3 = () => {
       <div className="index_business_consulting">
         <main className="page_content s2">
           <Header3 />
-          <Hero3 />
+          <div style={{ marginTop: "-77px" }}>
+            <Hero3 />
+          </div>
 
           <ConsultingService />
           <EmpoweringSuccess />
